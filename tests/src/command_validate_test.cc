@@ -7,7 +7,7 @@ extern "C" {
 TEST(CDValidateTest, ValidateCDArgv) {
   int argc = 2;
   char* argv[] = {
-    "cd", "."
+    "cd", "~"
   };
 
   ASSERT_EQ(validate_cd_argv(argc, argv), 1);
