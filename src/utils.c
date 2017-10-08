@@ -8,7 +8,7 @@ void mysh_parse_command(const char* command, int *argc, char*** argv)
 {
     int argcnum = 0;
 
-    char str[8096];
+    char str[BUF];
     char parse[] = " \n\t";
     memset(str, 0x00, BUF);
     strcpy(str, command);
