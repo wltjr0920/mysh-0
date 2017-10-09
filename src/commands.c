@@ -22,8 +22,8 @@ int do_pwd(int argc, char** argv) {
   char pwd[BUF];
   if(getcwd(pwd,sizeof(pwd))==NULL)
 	return -2;//getcwd error
-  else
-  printf("%s\n",pwd);
+//  else
+//  printf("%s\n",pwd);
 return 0;
 }
 int validate_cd_argv(int argc, char** argv) {
